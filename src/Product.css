@@ -1,0 +1,76 @@
+.dashboard {
+    border-left: 1px solid #dbdde0;
+    border-right: 1px solid #dbdde0;
+    border-top: 1px solid #dbdde0;
+  }
+  
+  .dashboard-table {
+    width: 100%;
+  }
+  
+  .dashboard-table th,
+  tr,
+  td {
+    border-top: 1px solid #dbdde0;
+    border-bottom: 1px solid #dbdde0;
+    padding: 19px 0px 19px 24px;
+  }
+  
+  .dashboard-table thead tr,
+  th {
+    background-color: #f4f5f4;
+    border-top: 0px !important;
+  }
+  
+  .dashboard-table tr:hover {
+    cursor: pointer;
+    background-color: #f4f5f4;
+  }
+  
+  .collapse-item {
+    padding: 0 !important;
+    height: 0px;
+    opacity: 0;
+    transition: all 150ms ease-in-out;
+    visibility: collapse !important;
+  }
+  
+  .collapse-item:hover {
+    background: white !important;
+    cursor: default !important;
+  }
+  
+  .collapse-item img {
+    height: 160px;
+    object-fit: contain;
+    transition: all 150ms ease-in-out;
+    opacity: 0;
+  }
+  
+  .collapse-item.active img {
+    height: 160px;
+    object-fit: contain;
+    opacity: 1;
+    transition: all 150ms ease-in-out;
+  }
+  
+  .collapse-item.active {
+    height: 160px;
+    opacity: 1;
+    transition: all 150ms ease-in-out;
+    visibility: visible !important;
+  }
+  
+  .dashboard-form-container {
+    border: 1px solid #dbdde0;
+    border-radius: 8px;
+    border-top: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    width: 100%;
+  }
+  
+  .edit-modal img {
+    height: 160px;
+    object-fit: contain;
+  }
